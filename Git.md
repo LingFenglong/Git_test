@@ -88,9 +88,9 @@
     >以上进行了全局配置，当然有些时候我们的某一个项目想要用特定的邮箱，这个时候只需切换到你的项目，把 --global 参数去除，再重新执行一遍就ok了。
 
     ```bash
-    git config -global user.name "LingFenglong"			// 设置用户名
+    git config --global user.name "LingFenglong"			// 设置用户名
     
-    git config -global user.email "2808021998@qq.com"	// 设置邮箱
+    git config --global user.email "2808021998@qq.com"	// 设置邮箱
     ```
 
     
